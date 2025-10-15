@@ -998,7 +998,7 @@ header {
 }
 
 .slider-area {
-    background-image: url("../img/banner-img.jpg");
+    background-image: url("../img/Tanks_02.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -2097,13 +2097,31 @@ figure.about-image.hover .curl {
 }
 
 .blog .blog-img {
-    width: 80%;
+    width: 92%;
 }
 
 .blog .right-text {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
+}
+
+#blog li {
+    opacity: 0.7;
+}
+
+#contact li,
+#contact p {
+    opacity: 0.7;
+}
+
+#contact-form-data input::placeholder,
+#contact-form-data textarea::placeholder {
+    color: #4a99c7;
+}
+
+.about-media p {
+    opacity: 0.7;
 }
 
 /* ===================================
